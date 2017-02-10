@@ -116,7 +116,7 @@ export default {
       }
     }
   },
-  beforeMount () {
+  mounted () {
     let self = this
     firebase.auth().onAuthStateChanged(function (user) {
       if (user) {

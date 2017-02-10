@@ -156,7 +156,7 @@ export default {
       })
     }
   },
-  beforeMount () {
+  mounted () {
     let self = this
     firebase.auth().onAuthStateChanged(function (user) {
       if (user) {
@@ -170,8 +170,7 @@ export default {
         self.$store.commit('notifyAuthRequired')
       }
     })
-  },
-  mounted () {
+
     document.querySelector('#user-settings-name').focus()
   },
   validations: {

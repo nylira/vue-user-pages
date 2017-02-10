@@ -1,6 +1,6 @@
 {
   "name": "@nylira/vue-user-pages",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "User pages compnonents for Vue 2.",
   "main": "index.js",
   "dependencies": {

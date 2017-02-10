@@ -148,8 +148,4 @@ export default {
 }
 </script>
 
-<style lang="stylus">
-@import '../styles/variables.styl'
-.page-user .ni-page-header
-  border-bottom none
-</style>
+<style src="./style.css">
